@@ -57,3 +57,14 @@ This project is an interactive dashboard built using Streamlit to help HealthKar
 
    payouts.csv
 
+## File Descriptions
+
+| Filename           | Description                                           |
+|--------------------|-------------------------------------------------------|
+| `simulate_data.py`   | Script to generate simulated CSV datasets             |
+| `influencers.csv`   | Influencer metadata (id, name, category, gender, etc.)|
+| `posts.csv`         | Influencer posts with performance metrics             |
+| `tracking_data.csv` | Campaign tracking with orders and revenue details      |
+| `payouts.csv`       | Influencer payout details based on post or order basis|
+| `dashboard.py`      | Streamlit dashboard app to upload, analyze, and visualize data |
+
