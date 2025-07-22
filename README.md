@@ -35,3 +35,14 @@ This project is an interactive dashboard built using Streamlit to help HealthKar
 
    ```bash
    pip install pandas numpy streamlit
+
+4. Generate sample CSV data (if not already available):
+
+   ```bash
+   python simulate_data.py
+
+5. Run the dashboard application:
+
+   ```bash
+   python -m streamlit run dashboard.py
+
