@@ -46,3 +46,13 @@ This project is an interactive dashboard built using Streamlit to help HealthKar
    ```bash
    python -m streamlit run dashboard.py
 
+6. In the dashboard, upload the following CSV files:
+
+influencers.csv
+
+posts.csv
+
+tracking_data.csv
+
+payouts.csv
+
