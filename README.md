@@ -96,6 +96,15 @@ This project is an interactive dashboard built using Streamlit to help HealthKar
 
 <img width="1884" height="421" alt="image" src="https://github.com/user-attachments/assets/66a07eb3-8596-4276-81a5-d7f3f38fd30d" />
 
+📈 Top 10 Influencers by ROAS
+
+<img width="1461" height="744" alt="image" src="https://github.com/user-attachments/assets/15b10ff2-3dbc-409b-97de-5c4cb76cb08b" />
+
+💰 Revenue by Platform
+
+<img width="1377" height="722" alt="image" src="https://github.com/user-attachments/assets/a9aac10b-ae3f-4f78-b51d-22f1699c4958" />
+
+
 
 
 
