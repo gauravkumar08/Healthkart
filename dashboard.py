@@ -161,7 +161,7 @@ if influencers and posts and tracking and payouts:
 
     top_roas = roas_df.sort_values(by="ROAS", ascending=False).head(10)
     plt.figure(figsize=(10, 5))
-    sns.barplot(data=top_roas, x="ROAS", y="name", palette="viridis")
+    sns.barplot(data=top_roas, x="ROAS", y="name", hue="name", palette="viridis", legend=False)
     plt.title("Top 10 Influencers by ROAS")
     plt.xlabel("ROAS")
     plt.ylabel("Influencer")
@@ -172,7 +172,7 @@ if influencers and posts and tracking and payouts:
     tracking_platform = df_tracking.merge(df_influencers[['id', 'platform']], left_on='influencer_id', right_on='id')
     revenue_platform = tracking_platform.groupby('platform')['revenue'].sum().reset_index()
     plt.figure(figsize=(8, 4))
-    sns.barplot(data=revenue_platform, x='platform', y='revenue', palette='magma')
+    sns.barplot(data=revenue_platform, x='platform', y='revenue', hue='platform', palette='magma', legend=False)
     plt.title("Revenue by Platform")
     plt.xlabel("Platform")
     plt.ylabel("Total Revenue")
